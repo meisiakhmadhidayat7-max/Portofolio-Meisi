@@ -1,3 +1,8 @@
+import projectFintechImg from '../assets/images/project_fintech_app_1794882547991.jpg';
+import projectDesignSystemImg from '../assets/images/project_design_system_1794882550041.jpg';
+import projectWorkspaceImg from '../assets/images/project_workspace_analytics_1794882550147.jpg';
+import projectCommerceImg from '../assets/images/project_commerce_editorial_1794882550189.jpg';
+
 export type ProjectCategory = 'Semua' | 'Sistem Informasi' | 'Desain UI' | 'Aplikasi Web';
 
 export interface ProjectItem {
@@ -107,7 +112,7 @@ export const PROJECTS: ProjectItem[] = [
       { label: 'Uji Pengguna', value: '3 UMKM lokal' },
       { label: 'Kecepatan Muat', value: '97 Lighthouse' },
     ],
-    image: '/src/assets/images/project_fintech_app_1794882547991.jpg',
+    image: projectFintechImg,
     imageAlt: 'Tampilan aplikasi pencatatan kas dan analitik keuangan pada laptop dan ponsel.',
     featured: true,
     deliverables: ['Diagram Alur Data', 'Desain Antarmuka', 'Implementasi React & TypeScript'],
@@ -132,7 +137,7 @@ export const PROJECTS: ProjectItem[] = [
       { label: 'Standar Kontras', value: 'WCAG AA' },
       { label: 'Efisiensi Setup', value: '2x lebih cepat' },
     ],
-    image: '/src/assets/images/project_design_system_1794882550041.jpg',
+    image: projectDesignSystemImg,
     imageAlt: 'Dokumentasi tipografi dan spesifikasi komponen UI terbuka di atas meja kerja.',
     deliverables: ['Sistem Grid & Warna', 'Komponen Tailwind', 'Dokumentasi Pemakaian'],
   },
@@ -156,7 +161,7 @@ export const PROJECTS: ProjectItem[] = [
       { label: 'Tampilan', value: 'Desktop & HP' },
       { label: 'Respon UI', value: '< 60 ms' },
     ],
-    image: '/src/assets/images/project_workspace_analytics_1794882550147.jpg',
+    image: projectWorkspaceImg,
     imageAlt: 'Layar monitor menampilkan aplikasi perencana tugas dan jadwal kerja editorial.',
     deliverables: ['Pemetaan Kebutuhan', 'Desain Responsif', 'State Management React'],
   },
@@ -180,7 +185,7 @@ export const PROJECTS: ProjectItem[] = [
       { label: 'Skor Aksesibilitas', value: '96 / 100' },
       { label: 'Tahun Rilis', value: '2024' },
     ],
-    image: '/src/assets/images/project_commerce_editorial_1794882550189.jpg',
+    image: projectCommerceImg,
     imageAlt: 'Tampilan situs katalog kerajinan dan kopi lokal pada perangkat tablet.',
     deliverables: ['Tata Letak Editorial', 'Katalog Responsif', 'Optimasi Gambar Web'],
   },
